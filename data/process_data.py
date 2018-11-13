@@ -63,6 +63,9 @@ def clean_data(df):
     # drop duplicates
     df.drop_duplicates(inplace=True)
 
+    # convert related 2 to 1
+    df.loc[df.related == 2, 'related'] = 1
+
     return df
 
 
@@ -70,7 +73,7 @@ def save_data(df, database_filename):
     """
     """
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('disaster_messages', engine, index=False)
+    df.to_sql('dataset', engine, index=False)
 
 
 def main():

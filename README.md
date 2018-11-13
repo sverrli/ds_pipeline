@@ -12,3 +12,15 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+### Libraries used in the project
+Pandas, Numpy, Matplotlib, Seaborn, pickle, sklearn, re, nltk, sqlalchemy
+
+### Motivation for the project
+The project is part of a Udacity Nanodegree in Data Science.
+
+### Files in the repository
+process_data.py - python script for loading, cleaning and saving data
+README.md - This file, providing some documentation for the project
+disaster_messages.csv, disaster_categories.csv - csv files to be processed
+train_classifier.py - ML pipeline that trains and saves classifier
