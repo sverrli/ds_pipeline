@@ -14,10 +14,13 @@
 3. Go to http://0.0.0.0:3001/
 
 ### Libraries used in the project
-Pandas, Numpy, Matplotlib, Seaborn, pickle, sklearn, re, nltk, sqlalchemy
+Pandas, Numpy, Matplotlib, Seaborn, pickle, sklearn, re, nltk, sqlalchemy,
+flask, json, plotly
 
 ### Motivation for the project
-The project is part of a Udacity Nanodegree in Data Science.
+The project is part of a Udacity Nanodegree in Data Science. In the project I
+set up an ETL pipeline to clean and store data in a database, and set up a
+ML pipeline to train, classify and save. 
 
 ### Files in the repository
 process_data.py - python script for loading, cleaning and saving data
