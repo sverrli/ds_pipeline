@@ -20,10 +20,11 @@ flask, json, plotly
 ### Motivation for the project
 The project is part of a Udacity Nanodegree in Data Science. In the project I
 set up an ETL pipeline to clean and store data in a database, and set up a
-ML pipeline to train, classify and save. 
+ML pipeline to train, classify and save.
 
 ### Files in the repository
 process_data.py - python script for loading, cleaning and saving data
 README.md - This file, providing some documentation for the project
 disaster_messages.csv, disaster_categories.csv - csv files to be processed
 train_classifier.py - ML pipeline that trains and saves classifier
+run.py - runs the web app
